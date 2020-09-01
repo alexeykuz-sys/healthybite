@@ -3,16 +3,17 @@
 .body {
     overflow-x: hidden;
     font-family: "Roboto", sans-serif;
-    color: black;
+    color: rgb(11, 5, 0);
 }
 /*------Navigation Bar----*/
 
 .navbar {
-    text-transform: uppercase;
-    font-weight: 700px;
-    font-size: 0.9rem;
+    
+    font-weight: 900px;
+    font-size: 1.4rem;
     letter-spacing: 0.2rem;
-    background: white;
+     color: rgb(239, 202, 8);
+    background: rgba(231, 223, 223, 0.5);
 }
 
 .navbar-brand img {
@@ -24,11 +25,67 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color: rgb(11, 5, 0);
     padding-top: 0.8rem;
+    align-items: center;
+    align-content: center;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: tomato;
+    color: rgb(12, 159, 98);
+    text-transform: uppercase;
+    font-weight: 900px;
     
+}
+/*---Landing page---*/
+
+.home-image {
+    background-image: url(../images/landing-page.jpeg);
+    width: 1600px;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.caption {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top:60%;
+    left: 70%;
+    z-index: 1;
+    color: rgb(11, 5, 0);
+    text-transform: uppercase;
+    text-align: justify;
+    letter-spacing: .3rem;
+}
+
+.caption h1 {
+    font-weight: 900px;
+    text-align: center;
+    
+
+}
+.btn-lg{
+    background-color: rgb(12, 159, 98);
+    color: rgb(239, 202, 8);
+    font-size: 1.8rem;
+    margin: 10px;
+    position: relative;
+    justify-items: center;
+    box-shadow: 5px 10px 20px rgb(7, 88, 54) ;
+    transition: all .23s;
+}
+
+.btn-lg:hover {
+    transform: scaleX(1.1) scaleY(1.2);
+    box-shadow: 0 10px 20px rgb(7, 88, 54);
+    color: rgb(239, 202, 8);
+}
+
+
+.green {
+    color: rgb(12, 159, 98);
+
 }
