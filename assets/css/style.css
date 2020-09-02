@@ -1,10 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.body {
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.body,
+html {
     overflow-x: hidden;
     font-family: "Roboto", sans-serif;
     color: rgb(11, 5, 0);
+    height: 100%;
+    position: relative;
 }
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 7rem;
+    margin-top: -4rem;
+}
+
+
 /*------Navigation Bar----*/
 
 .navbar {
@@ -41,7 +59,7 @@
 
 .home-image {
     background-image: url(../images/landing-page.jpeg);
-    width: 1600px;
+    width: 100%;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,4 +106,41 @@
 .green {
     color: rgb(12, 159, 98);
 
+}
+
+/*----About page---*/
+
+
+.about-center h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 25px; 
+    text-align: center;
+}
+
+
+.text-about {
+    position: relative;
+    font-weight: 600px;
+    font-size: 1.2rem;
+    letter-spacing: .3rem;
+    line-height: 1.5rem;
+    text-align: justify ;
+    margin-top: 25px;
+    padding:20px;
+    
+    
+}
+
+.image-about {
+    background-image: url(../images/about-page.jpeg);
+    width: 100%;
+    max-height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 50px;
+    position: relative;
+    padding:20px;
 }
