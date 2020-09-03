@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/style.css ">
 
@@ -10,13 +11,15 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
+<div id="home" >
     <!---------------Navigation bar -->
     <nav class=" navbar navbar-expand-lg fixed-top navbar-light">
         <a class="navbar-brand " href="#home "><img src="assets/images/Logo.jpg " alt="logo image "></a>
-        <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsible">
-           <span class="navbar-toggle-icon"></span> 
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsible">
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+            class="fas fa-bars fa-1x"></i></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ">
                     <a class="nav-link " href="#home ">Home</a>
@@ -32,20 +35,17 @@
             </ul>
         </div>
     </nav>
+
 <!--End of Navigation bar-->
 <!--Start of Home Page-->
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="home-image"></div>
-    </div>
-    <div class="caption">
-        <h1 class="landing-text">Eat <span class="green">Natural</span> - </h1>
-        <h1>Stay <span class="green">Healthier</span></h1>
+    
+    <div class="home-img">
+        <h1 class="landing-text">Eat <span class="green">Natural</span> - Stay <span class="green">Healthier</span></h1>    
         <button type="button" class="btn btn-lg order-button"><a href="#menu"></a>Order Now!</button>
     </div>
+    
+    
 </div>
-
 <!--About Us-->
 <div id="about" class="offset">
     <div class="about-center">

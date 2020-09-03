@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 .body,
@@ -11,9 +12,9 @@ html {
     overflow-x: hidden;
     font-family: "Roboto", sans-serif;
     color: rgb(11, 5, 0);
-    height: 100%;
-    position: relative;
+    
 }
+
 
 .offset:before {
     display: block;
@@ -26,12 +27,12 @@ html {
 /*------Navigation Bar----*/
 
 .navbar {
-    
     font-weight: 900px;
     font-size: 1.4rem;
     letter-spacing: 0.2rem;
      color: rgb(239, 202, 8);
-    background: rgba(231, 223, 223, 0.5);
+    background: transparent;
+    margin-top: 0;
 }
 
 .navbar-brand img {
@@ -44,7 +45,6 @@ html {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(11, 5, 0);
-    padding-top: 0.8rem;
     align-items: center;
     align-content: center;
 }
@@ -52,52 +52,52 @@ html {
 .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(12, 159, 98);
     text-transform: uppercase;
-    font-weight: 900px;
-    
+    font-weight: 900px; 
 }
+
+.fa-1x {
+    font-size: 2.5rem;
+}
+
 /*---Landing page---*/
 
-.home-image {
+
+
+.home-img {
     background-image: url(../images/landing-page.jpeg);
-    width: 100%;
     height: 100vh;
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-}
-
-.caption {
-    position: absolute;
-    width: auto;
-    height: auto;
-    top:60%;
-    left: 70%;
-    z-index: 1;
-    color: rgb(11, 5, 0);
-    text-transform: uppercase;
-    text-align: justify;
-    letter-spacing: .3rem;
-}
-
-.caption h1 {
-    font-weight: 900px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    
-
 }
-.btn-lg{
+
+  .landing-text {
+    
+    font-size: 3.5rem;
+    font-weight: 700px;
+    width:100%
+  }  
+
+
+.order-button {
+    
     background-color: rgb(12, 159, 98);
     color: rgb(239, 202, 8);
-    font-size: 1.8rem;
-    margin: 10px;
-    position: relative;
-    justify-items: center;
+    font-size: 3rem;
+    align-items: center;
+    justify-items: center center;
     box-shadow: 5px 10px 20px rgb(7, 88, 54) ;
     transition: all .23s;
+    border-radius: 30px;
 }
 
 .btn-lg:hover {
-    transform: scaleX(1.1) scaleY(1.2);
+    transform: scaleX(1.2) scaleY(1.2);
     box-shadow: 0 10px 20px rgb(7, 88, 54);
     color: rgb(239, 202, 8);
 }
@@ -126,7 +126,8 @@ html {
     align-content: center;
     align-items: center;
     margin: 0 auto;
-    
+    position: relative
+    ;
 }
 .text-about {
     position: relative;
@@ -152,7 +153,9 @@ html {
     background-position: center center;
     margin: 5px auto;
     position: relative;
-    
-
-    
+       
 }
+
+
+/*----Media Queries----*/
+
