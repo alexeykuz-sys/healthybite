@@ -222,79 +222,46 @@ html {
     margin:0 auto;
     
     
-    
 }
 
-.menu-card-falafel,
-.menu-card-halloumi,
-.menu-card-chicken,
-.menu-card-falafel-box,
-.menu-card-chicken-box,
-.menu-card-halloumi-box  {
+.menu-card  {
     width: 22rem;
     height: 22rem;
     position: relative;
     border-radius: 5%;
     overflow: hidden;
+    margin-top: 10px;
     
 }
 
-.menu-card-falafel img {
-    overflow: hidden;
-    
-}
-
-.menu-card-falafel h5,
-.menu-card-halloumi h5
-.menu-card-chicken h5,
-.menu-card-falafel-box h5,
-.menu-card-chicken-box h5,
-.menu-card-halloumi-box h5 {
+.menu-card h5 {
     font-size: 2rem;
     justify-items: center;
     margin: 10px auto;
     letter-spacing: .31rem;
 }
 
-.menu-card-falafel p,
-.menu-card-halloumi p,
-.menu-card-chicken p,
-.menu-card-falafel-box p,
-.menu-card-chicken-box p,
-.menu-card-halloumi-box p {
+.menu-card p {
     float: left;
     font-size: 2rem;
     margin:10px auto;
     align-self: baseline;
 }
 
-.menu-card-falafel a,
-.menu-card-halloumi a,
-.menu-card-chicken a,
-.menu-card-falafel-box a,
-.menu-card-chicken-box a
-.menu-card-halloumi-box a {
+.menu-card a {
     float: right;
     margin:10px auto;
     align-self: baseline;
 
 }
 
-.menu-card-halloumi img,
-.menu-card-chicken img,
-.menu-card-falafel-box img,
-.menu-card-halloumi-box img,
-.menu-card-chicken-box img{
+.menu-card img{
     overflow: hidden;
-    height: 60%;
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
     
 }
 
-.menu-card-falafel img,
-.menu-card-chicken-box img{
-    overflow: hidden;
-    height: 61%;
-    
-}
 
 /*----Media Queries----*/
