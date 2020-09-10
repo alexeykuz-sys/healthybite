@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/style.css ">
-
 <head>
-    <meta charset="UTF-8 ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css ">
+
+    <meta charset="utf-8 ">
     <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
     <title>HealthyBite</title>
 </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
 <div id="home" >
-    <!---------------Navigation bar -->
+    <!---------------Navigation bar---->
     <nav class=" navbar navbar-expand-lg fixed-top navbar-light">
         <a class="navbar-brand " href="#home "><img src="assets/images/Logo.jpg " alt="logo image "></a>
         <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        aria-controls="navbarResponsive" aria-expanded= "false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
             class="fas fa-bars fa-1x"></i></span></button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -41,7 +41,7 @@
     
     <div class="home-img">
         <h1 class="landing-text">Eat <span class="green">Natural</span> - Stay <span class="green">Healthier</span></h1>    
-        <button type="button" class="btn btn-lg order-button"><a href="#menu"></a>Order Now!</button>
+        <a role="button" class="btn btn-lg order-button" href="#menu">Order Now!</a>
     </div>
     
     
@@ -51,7 +51,7 @@
     <div class="about-center text-center">
         <h1>About Us</h1>
     </div>
-    <div class="container">
+    <div class="container text-wrapper">
         <div class="text-about">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -72,29 +72,30 @@
 </div>
 <!--About Us-->
 <div id="menu" class="offset">
-    <div class="container-fluid menu-container">     
+    <div class="container-fluid ">     
           
-            <!--<div class="menu-img"> -->
-                
+        
+        <div class="menu-img">       
               
-             <div class="row">
-                <div class="col-md-12">
+            <div class="row">
+                
+                <div class="col col-md-12">
                     <div class="menu-center text-certer">
                         <h1>Menu</h1>
                     </div>
                 </div>
                 
-                <div class="col-12 col-md-4 mt-2">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card menu-card">
                         <img class="card-img-top" src="assets/images/falafel-wrap.jpeg" alt="falafel-wrap">
                         <div class="card-body">
-                        <h5 class="card-title">Falafel Wrap</h5>
-                        <p class="card-text">£4.40</p>
-                        <a href="#" class="btn btn-primary">Order Now!</a>
+                            <h5 class="card-title">Falafel Wrap</h5>
+                            <p class="card-text">£4.40</p>
+                            <a href="#" class="btn btn-primary">Order Now!</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4  mt-2">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card menu-card">
                         <img class="card-img-top" src="assets/images/halloumi-wrap.jpeg" alt="halloumi-wrap">
                         <div class="card-body">
@@ -104,7 +105,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4   mt-2">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card menu-card">
                         <img class="card-img-top" src="assets/images/chicken-wrap.jpeg" alt="chicken-wrap">
                         <div class="card-body">
@@ -115,7 +116,7 @@
                     </div>
             
                 </div>
-                <div class="col-12 col-md-4  mt-2">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card menu-card">
                         <img class="card-img-top" src="assets/images/falafel-box.jpeg" alt="falafel-box">
                         <div class="card-body">
@@ -125,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4   mt-2">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card menu-card">
                         <img class="card-img-top" src="assets/images/chicken-box.jpeg" alt="chicken-box">
                         <div class="card-body">
@@ -135,7 +136,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-md-4   mt-2">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card menu-card">
                         <img class="card-img-top" src="assets/images/halloumi-box.jpeg" alt="halloumi-box">
                         <div class="card-body">
@@ -145,17 +146,14 @@
                         </div>
                     </div>
                 </div>
-            
-        
+            </div>
+        </div>
     </div>   
 </div>
 
-</div>
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
