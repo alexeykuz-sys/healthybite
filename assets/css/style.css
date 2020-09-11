@@ -162,6 +162,9 @@ html {
 }
 
 /*----Menu page----*/
+.menu-wrapper {
+    position: relative;
+}
 
 .menu-center h1 {
     text-transform: uppercase;
@@ -174,12 +177,12 @@ html {
 
 .menu-img {
     background-image: url(../images/menu-img.jpeg);
-    height:100vh;
-    
+    height:100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    position: relative;
+    position: absolute;
 }
 
 .menu-img:before {
