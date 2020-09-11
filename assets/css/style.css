@@ -322,4 +322,12 @@ input[type=submit]:hover {
 }
 /*----Media Queries----*/
 
-
+@media screen 
+ and (max-device-width: 900px) 
+ and (min-device-width: 300px) {
+    .image-about {
+        background-image: url(../images/about-page.jpg);
+        height: 50vh;
+        
+    }
+}
