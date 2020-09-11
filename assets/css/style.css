@@ -330,4 +330,12 @@ input[type=submit]:hover {
         height: 50vh;
         
     }
+    .text-about {
+        font-size: 1.6rem;
+        letter-spacing: .2rem;
+        line-height: 1.6rem;
+        text-align: justify ;
+        margin: 5px auto;  
+        flex-wrap: wrap;
+    }
 }
