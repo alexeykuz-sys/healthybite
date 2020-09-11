@@ -237,6 +237,86 @@ html {
 }
 
 
+/*---Contact page decoration----*/
+
+
+.contact-center h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.contacts-image {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.contact-text p {
+    text-align: justify;
+    margin: auto;
+    margin-top: 25px;
+    width: 350px;
+}
+
+.contact-form {
+    
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #22181C;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #B71419;
+;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #B71419;
+}
+
+/*---Footer decoration----*/ 
+
+.text-footer-custom {
+    padding: 10px;
+    font-size: 1.2em;
+    color:#22181C;
+    margin-top: 10px;
+}
+
+.text-footer-custom h4 {
+    
+    font-size: 1em;
+    color:#22181C;
+    line-height: 2em;
+}
+
+.text-center a {
+    color:#22181C;
+    padding-right: 30px;
+    margin: auto 0;
+    font-size: 1.4em;
+    
+}
+.text-center a:hover {
+    color: rgba(0, 0, 255, 0.678);
+}
 /*----Media Queries----*/
 
 
