@@ -148,6 +148,7 @@ html {
     background-position: center center;
     margin: 0 20px ;
     float: right;
+    box-shadow: 5px 10px 20px rgb(160, 160, 160);
    
 }
 
@@ -158,7 +159,7 @@ html {
     letter-spacing: .2rem;
     line-height: 1.6rem;
     text-align: justify ;
-    margin: 5px auto;  
+    margin: 5px 20px;  
     
     
 }
@@ -197,7 +198,7 @@ html {
     left: 0;
     background: rgba(236, 236, 228, 0.6);
     min-width: 100%;
-    min-height: 100vh;
+    max-height: 100vh;
     
 }
 
@@ -354,7 +355,10 @@ input[type=submit]:hover {
     .navbar-brand img {
         height: 5rem;
     }
-
+    .navbar-nav li a {
+        font-size: 3rem;
+        background: #fcfcfc;
+    }
     .order-button {
         font-size: 4rem;
     }
@@ -370,7 +374,7 @@ input[type=submit]:hover {
     .image-about {
         background-image: url(../images/about-page.jpg);
         height: 30vh;
-        margin: 10px auto;
+        margin: 10px 10px;
     }
     .text-about {
         font-size: 1.6rem;
