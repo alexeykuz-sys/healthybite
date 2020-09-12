@@ -5,7 +5,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
 }
 
 .body,
@@ -74,6 +74,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 .home-img:before {
@@ -131,24 +132,23 @@ html {
     text-align: center;
 }
 .text-wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 2fr));
-    grid-gap: 5rem;
+    display: flex;
     align-items: flex-start;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: space-evenly;
+    margin: 0 5px;
     padding:10px;
 }
 
 .image-about {
     background-image: url(../images/about-page.jpg);
-    width: 100%;
-    height: 90vh;
+    width:50%;
+    height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    margin: 5px 10px;
-    
+    margin: 0 20px ;
+    float: right;
+   
 }
 
 .text-about {
@@ -159,8 +159,10 @@ html {
     line-height: 1.6rem;
     text-align: justify ;
     margin: 5px auto;  
-    flex-wrap: wrap;
+    
+    
 }
+    
 
 /*----Menu page----*/
 .menu-wrapper {
@@ -205,7 +207,7 @@ html {
     width: 100%;
     height: auto;
     border-radius: 5%;
-    margin: 10px; 
+    margin: 10px auto; 
     border: 1px solid black;
 
 }
@@ -344,13 +346,8 @@ input[type=submit]:hover {
 @media screen 
  and (max-device-width: 900px) 
  and (min-device-width: 300px) {
-    .navbar {
-        font-weight: 700;
-        font-size: 2rem;
-        letter-spacing: 0.2rem;
-        color: rgb(67, 167, 13);
-        background: #fcfcfc;
-        margin-top: 0;
+   .navbar {
+        
         height: 5.5rem;
     }
     
@@ -359,22 +356,28 @@ input[type=submit]:hover {
     }
 
     .order-button {
-    
         font-size: 4rem;
+    }
+
+    .text-wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding:10px;
         
     }
 
     .image-about {
         background-image: url(../images/about-page.jpg);
-        height: 50vh;
-        
+        height: 30vh;
+        margin: 10px auto;
     }
     .text-about {
         font-size: 1.6rem;
         letter-spacing: .2rem;
-        line-height: 1.6rem;
+        line-height: 1.9rem;
         text-align: justify ;
         margin: 5px auto;  
-        flex-wrap: wrap;
+        display: flexbox;
     }
 }
