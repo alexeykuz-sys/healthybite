@@ -351,14 +351,18 @@ input[type=submit]:hover {
         color: rgb(67, 167, 13);
         background: #fcfcfc;
         margin-top: 0;
-        height: 5rem;
+        height: 5.5rem;
     }
     
+    .navbar-brand img {
+        height: 5rem;
+    }
+
     .order-button {
     
         font-size: 4rem;
         
-}
+    }
 
     .image-about {
         background-image: url(../images/about-page.jpg);
