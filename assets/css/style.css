@@ -20,7 +20,7 @@ html {
 .offset:before {
     display: block;
     content: "";
-    height: 7rem;
+    height: 8rem;
     margin-top: -4rem;
 }
 
@@ -31,9 +31,10 @@ html {
     font-weight: 700;
     font-size: 1.4rem;
     letter-spacing: 0.2rem;
-     color: rgb(239, 202, 8);
-    background: transparent;
+    color: rgb(67, 167, 13);
+    background: #fcfcfc;
     margin-top: 0;
+    height: 4rem;
 }
 
 .navbar-brand img {
@@ -45,13 +46,13 @@ html {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(11, 5, 0);
+    color: rgb(67, 167, 13);
     align-items: center;
     align-content: center;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(12, 159, 98);
+    color: rgb(254, 234, 0);
     text-transform: uppercase;
     font-weight: 900; 
 }
@@ -82,7 +83,7 @@ html {
     bottom: 0;
     right: 0;
     left: 0;
-    background: rgba(255, 255, 245, 0.39);
+    background: rgba(241, 241, 238, 0.2);
     
 }
 
@@ -97,12 +98,12 @@ html {
 
 .order-button {
     
-    background-color: rgb(12, 159, 98);
-    color: rgb(239, 202, 8);
+    background-color: rgb(63, 97, 45);
+    color: rgb(254, 234, 0);
     font-size: 3rem;
     align-items: center;
     justify-items: center;
-    box-shadow: 5px 10px 20px rgb(7, 88, 54) ;
+    box-shadow: 5px 10px 20px rgb(20, 22, 21);
     transition: all .23s;
     border-radius: 30px;
     z-index: 2;
@@ -110,13 +111,13 @@ html {
 
 .btn-lg:hover {
     transform: scaleX(1.2) scaleY(1.2);
-    box-shadow: 0 10px 20px rgb(7, 88, 54);
-    color: rgb(239, 202, 8);
+    box-shadow: 5px 10px 20px rgb(20, 22, 21);
+    color: rgb(254, 234, 0);
 }
 
 
 .green {
-    color: rgb(12, 159, 98);
+    color: rgb(67, 167, 13);
 
 }
 
@@ -206,8 +207,7 @@ html {
     border-radius: 5%;
     margin: 10px; 
     border: 1px solid black;
-    box-shadow: 2px 2px rgb(199, 195, 195);
-    
+
 }
 
 .menu-card h5 {
@@ -239,6 +239,21 @@ html {
     
 }
 
+.btn {
+    background-color:rgb(67, 167, 13);
+    transition: all .23s;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgb(160, 160, 160);
+}
+
+.btn:hover {
+    background-color:rgb(238, 68, 68);
+    color: rgb(255, 255, 255);
+    transform: scaleX(1.2) scaleY(1.2);
+    box-shadow: 0 10px 20px rgb(63, 97, 45);
+    
+}
+
 
 /*---Contact page decoration----*/
 
@@ -253,7 +268,7 @@ html {
 
 .contacts-image {
     width: 350px;
-    height: 350px;
+    height: 250px;
     display: flex;
     margin: auto;
     border-radius: 10px;
@@ -319,6 +334,10 @@ input[type=submit]:hover {
 }
 .text-center a:hover {
     color: rgba(0, 0, 255, 0.678);
+}
+
+.green {
+    color:rgb(67, 167, 13);
 }
 /*----Media Queries----*/
 
