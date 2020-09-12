@@ -344,6 +344,15 @@ input[type=submit]:hover {
 @media screen 
  and (max-device-width: 900px) 
  and (min-device-width: 300px) {
+    .navbar {
+        font-weight: 700;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        color: rgb(67, 167, 13);
+        background: #fcfcfc;
+        margin-top: 0;
+        height: 5rem;
+    }
     
     .order-button {
     
