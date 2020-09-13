@@ -134,7 +134,7 @@ html {
 
 
 .image-about {
-    background-image: url(../images/about-page.jpg);
+    background-image: url(../images/aboutpagebgimg.jpg);
     width:100%;
     height: 50vh;
     background-size: cover;
@@ -357,8 +357,8 @@ input[type=submit]:hover {
     }
 
     .image-about {
-        background-image: url(../images/about-page.jpg);
-        height: 30vh;
+        background-image: url(../images/aboutpagebgimg.jpg);
+        height: 50vh;
         margin: 20px 10px;
         background-attachment: fixed;
     }
