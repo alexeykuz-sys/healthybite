@@ -159,9 +159,9 @@ html {
     
 
 /*----Menu page----*/
-.menu-wrapper {
+/*.menu-wrapper {
     position: relative;
-}
+}*/
 
 .menu-center h1 {
     text-transform: uppercase;
@@ -174,15 +174,17 @@ html {
 
 .menu-img {
     background-image: url(../images/menu-img.jpeg);
-    height:100%;
+    height:50vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    position: absolute;
+    overflow: hidden;
+    position: relative;
+    background-attachment: fixed;
 }
 
-.menu-img:before {
+/*.menu-img:before {
     content: '';
     position:absolute;
     top: 0;
@@ -203,6 +205,7 @@ html {
     border-radius: 5%;
     margin: 10px auto; 
     border: 1px solid black;
+    overflow: hidden;
 
 }
 
@@ -232,7 +235,7 @@ html {
     width: 100%;
     height: 12rem;
     object-fit: cover;
-    
+        
 }
 
 .btn {
@@ -299,6 +302,8 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 10px;
+
 }
 
 input[type=submit]:hover {
@@ -358,16 +363,35 @@ input[type=submit]:hover {
 
     .image-about {
         background-image: url(../images/aboutpagebgimg.jpg);
-        height: 50vh;
+        height: 30vh;
         margin: 20px 10px;
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
     .text-about {
-        font-size: 1.6rem;
-        letter-spacing: .2rem;
+        font-size: 2.6rem;
+        letter-spacing: .4rem;
         line-height: 1.9rem;
         text-align: justify ;
         margin: 5px auto;  
         display: flexbox;
+    }
+    .menu-img {
+        height: 50vh;
+        background-attachment: fixed;
+        background-position: 50%;
+    }
+    
+    .contact-text p {
+        font-size: 2.2rem;
+        width: 550px;
+        margin:25px auto;
+    }
+    
+    .contacts-image {
+        width: 550px;
+        height: 450px;
+        display: flex;
+        margin: auto;
+        border-radius: 10px;
     }
 }
