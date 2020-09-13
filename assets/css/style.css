@@ -360,6 +360,7 @@ input[type=submit]:hover {
         background-image: url(../images/about-page.jpg);
         height: 30vh;
         margin: 20px 10px;
+        background-attachment: fixed;
     }
     .text-about {
         font-size: 1.6rem;
