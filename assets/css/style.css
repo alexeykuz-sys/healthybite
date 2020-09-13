@@ -180,22 +180,13 @@ html {
     background-size: cover;
     background-position: center center;
     overflow: hidden;
-    position: relative;
+    margin: 20px auto;
     background-attachment: fixed;
+    box-shadow: 5px 10px 20px rgb(160, 160, 160);
 }
 
-/*.menu-img:before {
-    content: '';
-    position:absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background: rgba(236, 236, 228, 0.6);
-    min-width: 100%;
-    max-height: 100vh;
-    
-}
+
+
 
 /*---Menu card styles----*/
 
@@ -206,6 +197,7 @@ html {
     margin: 10px auto; 
     border: 1px solid black;
     overflow: hidden;
+    box-shadow: 5px 10px 20px rgb(160, 160, 160);
 
 }
 
@@ -249,7 +241,7 @@ html {
     background-color:rgb(238, 68, 68);
     color: rgb(255, 255, 255);
     transform: scaleX(1.2) scaleY(1.2);
-    box-shadow: 0 10px 20px rgb(63, 97, 45);
+    box-shadow: 5px 10px 20px rgb(160, 160, 160);
     
 }
 
@@ -271,6 +263,7 @@ html {
     display: flex;
     margin: auto;
     border-radius: 10px;
+    box-shadow: 5px 10px 20px rgb(160, 160, 160);
 }
 
 .contact-text p {
@@ -302,6 +295,7 @@ input[type=submit] {
   border: none;
   cursor: pointer;
   border-radius: 10px;
+  box-shadow: 5px 10px 20px rgb(160, 160, 160);
 
 }
 
@@ -364,7 +358,7 @@ input[type=submit]:hover {
     .image-about {
         background-image: url(../images/aboutpagebgimg.jpg);
         height: 30vh;
-        margin: 20px 10px;
+        margin: 20px auto;
         background-attachment: scroll;
     }
     .text-about {
