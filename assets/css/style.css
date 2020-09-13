@@ -104,7 +104,7 @@ html {
     font-size: 3rem;
     align-items: center;
     justify-items: center;
-    box-shadow: 5px 10px 20px rgb(20, 22, 21);
+    box-shadow: 5px 10px 20px rgb(160, 160, 160);
     transition: all .23s;
     border-radius: 30px;
     z-index: 2;
@@ -112,7 +112,7 @@ html {
 
 .btn-lg:hover {
     transform: scaleX(1.2) scaleY(1.2);
-    box-shadow: 5px 10px 20px rgb(20, 22, 21);
+    box-shadow: 5px 10px 20px rgb(160, 160, 160);
     color: rgb(254, 234, 0);
 }
 
@@ -147,12 +147,12 @@ html {
 
 .text-about {
     
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.2rem;
     letter-spacing: .2rem;
-    line-height: 1.6rem;
+    line-height: 2rem;
     text-align: justify ;
-    margin: 5px 20px;  
+    margin: 15px 20px;  
     
     
 }
@@ -289,7 +289,6 @@ input[type=text], input[type=email], select, textarea {
 
 input[type=submit] {
   background-color: #B71419;
-;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -358,13 +357,14 @@ input[type=submit]:hover {
     .image-about {
         background-image: url(../images/aboutpagebgimg.jpg);
         height: 30vh;
-        margin: 20px auto;
+        margin: 20px 0 40px 0;
         background-attachment: scroll;
     }
     .text-about {
-        font-size: 2.6rem;
+        font-size: 2.2rem;
+        font-weight: 400;
         letter-spacing: .4rem;
-        line-height: 1.9rem;
+        line-height: 2rem;
         text-align: justify ;
         margin: 5px auto;  
         display: flexbox;
@@ -374,6 +374,7 @@ input[type=submit]:hover {
         width: 90vh;
         background-attachment: scroll;
         background-position: 50%;
+        
     }
     
     .contact-text p {
@@ -393,13 +394,14 @@ input[type=submit]:hover {
         font-size: 1.6rem;
     }
     .contact-form {
-    
         margin: 30px auto;
     }
 
-input[type=text], input[type=email], select, textarea {
+    input[type=text], input[type=email], select, textarea {
     width: 100%;
     
-  }
-  
+    }
+    input[type=submit] {
+    font-size: 1.8rem;
+    }
 }
