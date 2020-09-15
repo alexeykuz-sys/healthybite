@@ -124,6 +124,8 @@ html {
 
 /*----About page---*/
 
+
+
 .about-center h1 {
     text-transform: uppercase;
     font-weight: 700;
@@ -141,7 +143,7 @@ html {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-    margin: 20px auto ;
+    margin: 2px auto ;
     box-shadow: 5px 10px 20px rgb(160, 160, 160);
 }
 
@@ -353,7 +355,11 @@ input[type=submit]:hover {
     .order-button {
         font-size: 4rem;
     }
-
+    .text-wrapper {
+        background-color: rgb(236, 231, 231);
+        
+    }
+    
     .image-about {
         background-image: url(../images/aboutpagebgimg.jpg);
         height: 30vh;
