@@ -347,17 +347,13 @@ input[type=submit]:hover {
     .navbar-brand img {
         height: 5rem;
     }
-    .navbar-nav li a {
+    .navbar-nav li {
         font-size: 3rem;
         background: #fcfcfc;
-        padding-right: 20px;
+        padding-left: 25px;
     }
     .order-button {
         font-size: 4rem;
-    }
-    .text-wrapper {
-        background-color: rgb(223, 217, 217);
-        
     }
     
     .image-about {
