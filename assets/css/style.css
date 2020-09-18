@@ -161,9 +161,7 @@ html {
     
 
 /*----Menu page----*/
-/*.menu-wrapper {
-    position: relative;
-}*/
+
 
 .menu-center h1 {
     text-transform: uppercase;
@@ -201,7 +199,8 @@ html {
     transform: perspective(200rem);
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 350px;
+    margin-top:20px;
 
 }
 
@@ -285,6 +284,12 @@ html {
     position: relative;
 }
 
+
+.card-text ul li {
+    list-style-type: circle;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
 /*---Contact page decoration----*/
 
 
