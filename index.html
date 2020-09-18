@@ -71,7 +71,7 @@
         </div>
     </div>
 </div>
-<!--Meni-->
+<!--Menu-->
 <div id="menu" class="offset">
     <div class="container-fluid  pb-3 menu-wrapper">           
         <div class="row">
@@ -82,16 +82,29 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="card menu-card">
-                    <img class="card-img-top" src="assets/images/falafel-wrap.jpeg" alt="falafel-wrap">
-                    <div class="card-body">
-                        <h5 class="card-title">Falafel Wrap</h5>
-                        <p class="card-text">£4.40</p>
-                        <a href="#" class="btn btn-primary">Order Now!</a>
-                    </div>
+                <div class="card-wrapper">
+                    
+                        <div class="card menu-card face-front">
+
+                            <img class="card-img-top" src="assets/images/falafel-wrap.jpeg" alt="falafel-wrap">
+                            <div class="card-body">
+                                <h5 class="card-title">Falafel Wrap</h5>
+                                <p class="card-text">£4.40</p>
+                                <a href="#" class="btn btn-primary">Order Now!</a>
+                            </div>
+                        </div>
+                        <div class="menu-card face-back">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">back side</h5>
+                                <p class="card-text">£24.40</p>
+                                <a href="#" class="btn btn-primary">Order Now!</a>
+                            </div>
+                        </div>
+                    
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <!--<div class="col-12 col-md-6 col-lg-4">
                 <div class="card menu-card">
                     <img class="card-img-top" src="assets/images/halloumi-wrap.jpeg" alt="halloumi-wrap">
                     <div class="card-body">
@@ -141,8 +154,8 @@
                     <a href="#" class="btn btn-primary">Order Now!</a>
                     </div>
                 </div>
-            </div>
-            <div class="col menu-img"></div>
+            </div>-->
+           <!--<div class="col menu-img"></div>>-->
         </div> 
     </div>   
     
@@ -150,45 +163,47 @@
 
 <!---------------Start of Contact section------------------>
 <div id="contact" class="offset">
-    <div class="text-center contact-center">
-        <h1>Contact Us</h1>
-    </div>
     
-    <div class="container">
-        <div class="row">
-            <div class="col-12  col-md-12 col-xs-12 col-lg-6 mt-2 contact-text ">
-                <img class="contacts-image" src="assets/images/contact-us.jpg" alt="contact-us image" loading="lazy">
-                <p>
-                Based in West London.
-                Homemade is happiness! We are small family business offering freshly made wraps, rice dishes and boxes at our food stall on Chiswick high road( opposite specsavers).
-
-                </p>
-            </div>
+        <div class="text-center contact-center">
+            <h1>Contact Us</h1>
+        </div>
         
-            <div class="col-12  col-md-12 col-xs-12 col-lg-6 mt-2">
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" action="/action_page.php">
-                        <label for="fname">First name:</label>
-                        <input type="text" id="fname" name="fname" placeholder="Your name.." required>
-                        <label for="lname">Last name:</label>
-                        <input type="text" id="lname" name="lname" placeholder="Your last name.." required><br>
-                        <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email" placeholder="Your email..." required><br>
-                        <label for="style">Menu Item</label>
-                        <select id="style" name="style">
-                            <option value="falafel wrap">Falafel Wrap</option>
-                            <option value="chicken wrap">Chicken Wrap</option>
-                            <option value="Halloumi Wrap">Halloumi Wrap</option>
-                        </select>
-                        <br>
-                        <label for="text">Text</label><br>
-                        <textarea id="text" name="text" placeholder="Write to me.." required style="height:140px"></textarea>
-                        <input type="submit" value="Submit">
-                    </form> 
+        <div class="container">
+            <div class="row">
+                <div class="col-12  col-md-12 col-xs-12 col-lg-6 mt-2 contact-text ">
+                    <img class="contacts-image" src="assets/images/contact-us.jpg" alt="contact-us image" loading="lazy">
+                    <p>
+                    Based in West London.
+                    Homemade is happiness! We are small family business offering freshly made wraps, rice dishes and boxes at our food stall on Chiswick high road( opposite specsavers).
+
+                    </p>
                 </div>
-            </div>
+            
+                <div class="col-12  col-md-12 col-xs-12 col-lg-6 mt-2">
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" action="/action_page.php">
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname" placeholder="Your name.." required>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname" placeholder="Your last name.." required><br>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" placeholder="Your email..." required><br>
+                            <label for="style">Menu Item</label>
+                            <select id="style" name="style">
+                                <option value="falafel wrap">Falafel Wrap</option>
+                                <option value="chicken wrap">Chicken Wrap</option>
+                                <option value="Halloumi Wrap">Halloumi Wrap</option>
+                            </select>
+                            <br>
+                            <label for="text">Text</label><br>
+                            <textarea id="text" name="text" placeholder="Write to me.." required style="height:140px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form> 
+                    </div>
+                </div>
+            </div> 
         </div> 
-    </div>    
+   
 </div>
  <!---------------End of Contact section------------>
 
