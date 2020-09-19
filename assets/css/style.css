@@ -161,9 +161,9 @@ html {
     
 
 /*----Menu page----*/
-/*.menu-wrapper {
+.menu-wrapper {
     position: relative;
-}*/
+}
 
 .menu-center h1 {
     text-transform: uppercase;
