@@ -341,11 +341,12 @@ input[type=submit]:hover {
  and (min-device-width: 300px) {
    .navbar {
         
-        height: 5.5rem;
+        height: 6rem;
     }
     
     .navbar-brand img {
         height: 5rem;
+        margin: auto;
     }
     .navbar-nav li {
         font-size: 3rem;
